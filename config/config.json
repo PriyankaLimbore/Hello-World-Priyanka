@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-priyanka-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldPriyanka/HelloWorldPriyankaWebPart.js",
+          "manifest": "./src/webparts/helloWorldPriyanka/HelloWorldPriyankaWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldPriyankaWebPartStrings": "lib/webparts/helloWorldPriyanka/loc/{locale}.js"
+  }
+}

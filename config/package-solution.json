@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-world-priyanka-client-side-solution",
+    "id": "3b8a9ed7-905a-4365-b84c-d46665b9e44c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "hello-world-priyanka description"
+      },
+      "longDescription": {
+        "default": "hello-world-priyanka description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-world-priyanka Feature",
+        "description": "The feature that activates elements of the hello-world-priyanka solution.",
+        "id": "b59474b5-c994-4fe2-a22c-cbdf4aefc539",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-world-priyanka.sppkg"
+  }
+}
